@@ -37,6 +37,8 @@ public class LeastCommonAncestor {
 		System.out.println(stack + "----------------" + stack2);
 		stack.retainAll(stack2);
 		System.out.println("---------Final answer------- " + stack.pop());
+		TreeNode node=leastCommonAncestor.findV1NodesUsingRecursion(treeNode5,5,3);
+			System.out.println("---------Recursince  answer------- " + node.val);
 
 	}
 
@@ -58,6 +60,29 @@ public class LeastCommonAncestor {
 		}
 		stack.add(v1);
 		return stack;
+	}
+	
+	private TreeNode findV1NodesUsingRecursion(TreeNode node, int v1,int v2){
+	    
+	    if(node==null){
+	        return null;
+	    }
+	    System.out.println(node.val);
+	    if(node.val == v1 || node.val== v2){
+	        return node;
+	    }
+	    
+	    TreeNode left=findV1NodesUsingRecursion(node.left,v1,v2);
+	    TreeNode right=findV1NodesUsingRecursion(node.right,v1,v2);
+	    if(left!=null &&right!=null){
+	        return node;
+	    }
+	    if(left!=null){
+	        return left;
+	    }else{
+	        return right;
+	    }
+	    
 	}
 
 	private int findDepth(TreeNode treeNode) {
