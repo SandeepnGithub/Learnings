@@ -14,10 +14,6 @@
     Waited for 5 seconds in B
     B class calling A last method
     Inside the A last
-
-
-
-
 */
 public class DeadLock extends Thread{
       A a=new A();
