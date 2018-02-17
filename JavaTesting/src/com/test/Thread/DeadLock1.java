@@ -17,8 +17,7 @@
     Waited for 5 seconds in B
     B class calling A last method
     JDoodle - Timeout -  Some common reasons for Timeout 
-
-*/
+    */
 
 public class DeadLock1 extends Thread{
       A a=new A();
