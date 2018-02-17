@@ -6,8 +6,17 @@
     
     Class A will  have to wait for object lock of b
     Class B will have to wait for object lock  of a
-
-
+    
+    Output:
+    ____________________________________
+    
+    Inside the A display
+    Inside the B display
+    Waited for 5 seconds in A
+    A class calling b last method
+    Waited for 5 seconds in B
+    B class calling A last method
+    JDoodle - Timeout -  Some common reasons for Timeout 
 
 */
 
