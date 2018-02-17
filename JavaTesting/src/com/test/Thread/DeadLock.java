@@ -3,6 +3,18 @@
    Case without a dead lock :
    
     Since last method is not synchronised  It will execute it without any problem
+    
+    Output:
+    _________________________________________________
+    Inside the A display
+    Inside the B display
+    Waited for 5 seconds in A
+    A class calling b last method
+    Inside the B last
+    Waited for 5 seconds in B
+    B class calling A last method
+    Inside the A last
+
 
 
 
