@@ -1,0 +1,36 @@
+package com.test;
+
+import java.util.*;
+public class PrintNumbersGreaterThanLeftandSmallerThanRight {
+    public static void main(String args[]) {
+        //int[] array=new int[]{3,1,4,8,7};
+        int[] array=new int[]{70,20,30,80,10,60,90,100,170,150};
+        int n = array.length;
+		int[] greatestOnLeft = new int[n+1];
+		int[] smallestOnRight = new int[n+1];
+
+		greatestOnLeft[0] = Integer.MIN_VALUE;
+		for (int i = 1; i <= n; i++) {
+			if(greatestOnLeft[i-1] > array[i-1]) {
+				greatestOnLeft[i] = greatestOnLeft[i-1];
+			}else{
+			    	greatestOnLeft[i]=array[i-1];
+			}
+		}
+
+		smallestOnRight[n] = Integer.MAX_VALUE;
+		for (int i = n-1; i >= 0; i--) {
+			if(smallestOnRight[i+1] < array[i]) {
+				smallestOnRight[i] = smallestOnRight[i+1];
+			}else{
+			    smallestOnRight[i]=array[i];
+			}
+		}
+
+		for (int i = 0; i < n; i++) {
+			if(greatestOnLeft[i] < array[i] && array[i] < smallestOnRight[i+1]) {
+				System.out.print(array[i] + " ");
+			}
+		}
+    }
+}
