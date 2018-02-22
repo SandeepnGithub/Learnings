@@ -1,8 +1,10 @@
 Serialization Concept:
 
-1.If SuperClass implements Serializable Interface then subclass will be serialized automatically 
+1.If SuperClass implements Serializable Interface then subclass will be serialized automatically
+
 2.If SuperClass does not implement Serialable Interface but subclass implements serializable interface then superclass
   must have a default constructor and super class instance variable will be given default value
+
 3.If Super class implements Serializable interface then if we dont want subclass to be serailized the we need to implement two methods
    writeObject and readObject
    // By implementing writeObject method, 
@@ -19,3 +21,4 @@ Serialization Concept:
     {
         throw new NotSerializableException();
     }
+https://www.geeksforgeeks.org/object-serialization-inheritance-java/
