@@ -41,7 +41,8 @@ int<---------------------------Wrapper
     }
 }
 Note: 
-The reason for this behaviour is for autoboxing and unboxing a buffer of wrapper object will be created in the range -127 to 127
+The reason for this behaviour is for autoboxing and unboxing a buffer of wrapper object will be created in the range -127 to 127 
+this concept is not there in float and double 
 Integer x=10;      |  Integer x=127;    |  Integer x=128;         |    Integer x=1000;  
 Integer y=10;	     |  Integer y=127; 	  |  Integer y=128; 	      |    Integer y=1000;       
 Sop(x==y);//true   |  Sop(x==y);//true	|  Sop(x==y);//false	    |    Sop(x==y);//false
