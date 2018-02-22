@@ -22,3 +22,11 @@ Serialization Concept:
         throw new NotSerializableException();
     }
 https://www.geeksforgeeks.org/object-serialization-inheritance-java/
+
+
+AutoBoxing and Unboxing 
+     AutoBoxing(Integer.valueof() will be used at compile time)for Integer i=10;
+int-------------------------->Wrapper
+
+      AutoUnBoxing(Integer.intValue() will be used at compile time)for int i=new Integer(10);
+int<---------------------------Wrapper
