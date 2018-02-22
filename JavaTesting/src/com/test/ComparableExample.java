@@ -1,3 +1,5 @@
+package com.test;
+
 import java.util.*;
 /*
  Comparable interface is used for comparing the single sorting sequence.
