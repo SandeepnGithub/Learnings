@@ -24,9 +24,20 @@ Serialization Concept:
 https://www.geeksforgeeks.org/object-serialization-inheritance-java/
 
 
-AutoBoxing and Unboxing 
+AutoBoxing and Unboxing :
+
      AutoBoxing(Integer.valueof() will be used at compile time)for Integer i=10;
 int-------------------------->Wrapper
 
       AutoUnBoxing(Integer.intValue() will be used at compile time)for int i=new Integer(10);
 int<---------------------------Wrapper
+   
+   Scenario NullPointer Exception:
+           public class AutoBoxingAndUnboxingNPE {
+    static Integer a;
+    public static void main(String args[]) {
+       int i=a;
+       System.out.println(i);
+    }
+}
+
