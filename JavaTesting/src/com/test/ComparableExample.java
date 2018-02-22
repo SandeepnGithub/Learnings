@@ -11,6 +11,18 @@ import java.util.*;
  Note:
  Collections.sort is used to sorting list only for sorting set use TreeSet and for Map use TreeMap
 
+Output:
+____________________________________________________________
+-----------------Before Sorting--------------------
+3------------Employee3
+400------------Employee400
+1------------Employee1
+2------------Employee2
+-----------------After Sorting--------------------
+1------------Employee1
+2------------Employee2
+3------------Employee3
+400------------Employee400
 
 
 **/
