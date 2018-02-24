@@ -12,7 +12,7 @@ public class CircularArrayRotation {
 	 *            n->Size of array k-> No of Rotations m->index need to be
 	 *            fetched
 	 * 
-	 *            if (k>m) arr[m-k] if(k<m) arr[(n-k+m)%n]
+	 *            if (k<m) arr[m-k] if(k>m) arr[(n-k+m)%n]
 	 * 
 	 */
 
