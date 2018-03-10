@@ -17,6 +17,9 @@ public class RightCircularArrayRotation {
 	2
 	3
 	1
+	
+	After the first rotation, the array becomes . [3 ,1 ,2]
+        After the second (and final) rotation, the array becomes .[2,3,1]
 	 * @param args
 	 * 
 	 *            Circular Array Rotations
