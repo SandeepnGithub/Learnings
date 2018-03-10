@@ -2,9 +2,21 @@ package com.test;
 
 import java.util.Scanner;
 
-public class CircularArrayRotation {
+public class RightCircularArrayRotation {
 
 	/**
+	Input:
+	____________________________________________________
+	3 2 3
+        1 2 3
+	0
+	1
+	2
+	Output:
+	_____________________________________________________
+	2
+	3
+	1
 	 * @param args
 	 * 
 	 *            Circular Array Rotations
@@ -12,7 +24,7 @@ public class CircularArrayRotation {
 	 *            n->Size of array k-> No of Rotations m->index need to be
 	 *            fetched
 	 * 
-	 *            if (k<m) arr[m-k] if(k>m) arr[(n-k+m)%n]
+	 *            if (k<m) arr[m-k] if(k>m) arr[(n + m - k)%n]
 	 * 
 	 */
 
@@ -30,7 +42,7 @@ public class CircularArrayRotation {
 			if (k < m)
 				System.out.println(a[m - k]);
 			else if (k >= m)
-				System.out.println(a[(n - k + m) % n]);
+				System.out.println(a[(n + m - k) % n]);
 		}
 	}
 }
