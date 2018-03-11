@@ -19,6 +19,25 @@ Note:
 varagrs is given least preferrence
 Autoboxing to widening possible but reverse is not possible Case 6 and Case 4 discuss about this scenario case 6 has been commented
 
+Output:
+---------------Start Of Case 1----------------
+Case1 :Display Int
+---------------End Of Case 1----------------
+---------------Start Of Case 2----------------
+Case2 :Display long
+---------------End Of Case 2----------------
+---------------Start Of Case 3----------------
+Case3 :Display Integer
+---------------End Of Case 3----------------
+---------------Start Of Case 4----------------
+Case4 :Display Autoboxing Followed by Widening
+---------------End Of Case 4----------------
+---------------Start Of Case 5----------------
+Case5 :Display Varargs
+---------------End Of Case 5----------------
+---------------Start Of Case 6----------------
+---------------End Of Case 6----------------
+
 */
 
 public class AutoBoxingWideningVarArgs {
