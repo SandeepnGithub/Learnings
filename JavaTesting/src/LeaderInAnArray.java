@@ -1,3 +1,10 @@
+/*******
+Output:
+_______________________________
+[27, 54, 98]
+
+
+****************/
 import java.util.*;
 public class LeaderInAnArray {
     public static void main(String args[]) {
