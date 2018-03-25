@@ -6,7 +6,8 @@ FuntionalInterface is an interface which can contain only one abstract method an
 
 Note :
 A functional Interface can extend another interface with only when that interface does not contain any abstract method
-eg:https://www.javatpoint.com/java-8-functional-interfaces
+eg:
+https://www.javatpoint.com/java-8-functional-interfaces
 Output:
 _________________________________________________________
 Display from Interface
