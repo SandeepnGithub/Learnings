@@ -27,6 +27,7 @@ public class QuickSort {
         }
         int pivot=(left+right)/2;
         int partition=sorting(arr,left,right,pivot);
+        // partition should be always less
         quicksort(arr,left,partition-1);
         quicksort(arr,partition,right);
     }
