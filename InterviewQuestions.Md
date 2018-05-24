@@ -69,3 +69,6 @@ method and decrements count value whenever thread calls unlock method and lock w
 Fairness Policy:
 longest waiting thread will get the lock,else it will follows first come first serve.
 
+
+Difference Between Sax and Dom Parser
+Sax will store only part of a file in memory where as dom will store entire in memory and process genrally sax is preferred.
