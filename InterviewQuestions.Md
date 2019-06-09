@@ -72,3 +72,18 @@ longest waiting thread will get the lock,else it will follows first come first s
 
 Difference Between Sax and Dom Parser
 Sax will store only part of a file in memory where as dom will store entire in memory and process genrally sax is preferred.
+
+
+
+FidelityInvestments Questions:
+________________________________________________________________
+What is the HttpHeader Size
+What is payload size in springboot
+how to increase the tomcat threadpool size in springboot
+what is the default http post size
+incase of large files what is the maximum mb available in springboot
+how authorization should be kept in spring boot microservices
+how authentication should be kept in spring boot microservices(Filter concept)
+Should Authorization be tigtly coupled to microservices or not
+In hibernate how to insert a data and update the data using same transaction or different transaction(Hibernate propogation)
+How to map resultset column to a class
