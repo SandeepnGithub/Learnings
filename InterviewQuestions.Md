@@ -87,3 +87,9 @@ how authentication should be kept in spring boot microservices(Filter concept)
 Should Authorization be tigtly coupled to microservices or not
 In hibernate how to insert a data and update the data using same transaction or different transaction(Hibernate propogation)
 How to map resultset column to a class
+
+
+Method Local Inner Class
+____________________________________________________
+final variable will be replaced by value during compile time
+hence method local inner class can access only final method local variables
