@@ -92,4 +92,4 @@ How to map resultset column to a class
 Method Local Inner Class
 ____________________________________________________
 final variable will be replaced by value during compile time
-hence method local inner class can access only final method local variables
+hence method local inner class can access  final method local variables but can access Outer class instance variables
